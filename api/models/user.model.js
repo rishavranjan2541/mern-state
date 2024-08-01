@@ -15,6 +15,10 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    avatar:{
+        type: String,
+        default: "https://pixabay.com/vectors/user-people-man-avatar-297330/"
+    },
 
 }, {timestamps:true});
 
